@@ -5,7 +5,7 @@
 a = 5
 b = 6
 
-print a, b
+print a, b  # 5,6
 
 a = a+1
 print a  # 6
