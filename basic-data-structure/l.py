@@ -6,7 +6,10 @@ print "all operations of a list:"
 print ", ".join([e for e in dir(list) if not e.startswith('_')])
 
 l = []  # define a empty list
-print type(l), l  # <type 'list'> []
+print type(l), l, len(l)  # <type 'list'> [] 0
+
+l = [1,2,3,4,5]
+print type(l), l, len(l)  # <type 'list'> [1, 2, 3, 4, 5] 5
 
 l = range(10)
 print l  # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
