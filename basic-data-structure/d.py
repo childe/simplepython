@@ -89,7 +89,7 @@ print 1 in d  # True
 
 print d.pop(2)  # 4
 print d  # {1: 1, 'name': 'square'}
-print d.popitem()  # (1, 1) 好像是随机的吧
+print d.popitem()  # (1, 1) arbitrary, not random
 print d  # {'name': 'square'}
 
 # update
