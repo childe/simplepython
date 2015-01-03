@@ -69,6 +69,10 @@ print d  # {1: 1, 2: 4, 'name': 'square'}
 d["name"] = "newname"
 print d  # {1: 1, 2: 4, 'name': 'newname'}
 
+
+print "==================== 删除 ==================="
+del d["name"]
+print d  # {1: 1, 2: 4}
 d["name"] = "square"  # 恢复成原来的名字
 
 
