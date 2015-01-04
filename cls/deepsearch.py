@@ -29,7 +29,7 @@ class C(object):
         self.b = 3
 
     def f2(self):
-        print "f1 defined in C"
+        print "f2 defined in C"
 
 
 class D(B, C):
